@@ -3,6 +3,22 @@ body {
   background-size: 100% auto;
 }
 
+
+.box-model {
+  margin: 12px 0px;
+  padding: 15px;
+  background-color: #277455;
+  color: white;
+  font-weight: lighter;
+}
+
+.picture-right-small {
+  float: right;
+  text-align: right;
+  max-width: 200px;
+  border-radius: 5px 40px;
+}
+
 .row-style {
   padding-left: 15px;
   padding-top:15px;
@@ -38,13 +54,6 @@ body {
   margin: 0 auto;
   text-align: center;
   background-color: #2A4F6E;
-}
-
-.picture-right-small {
-  float: right;
-  text-align: right;
-  max-width: 200px;
-  border-radius: 5px 40px;
 }
 
 .explanation {
