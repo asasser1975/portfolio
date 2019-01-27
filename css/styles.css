@@ -2,3 +2,9 @@ body {
   background-image: url('../img/beach1.JPG');
   background-size: 100% auto;
 }
+
+.picture-right-small {
+  float: right;
+  text-align: right;
+  max-width: 200px;
+}
