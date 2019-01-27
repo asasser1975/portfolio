@@ -3,9 +3,32 @@ body {
   background-size: 100% auto;
 }
 
-.col-style {
-  padding-right: 15px;
+.row-style {
   padding-left: 15px;
+  padding-top:15px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-style > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px ) {
+  .row {
+      position: relative;
+  }
+
+.bottom-align-row {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 .section-heading {
@@ -14,7 +37,6 @@ body {
   text-shadow: 1px 1px black;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 10px;
   background-color: #2A4F6E;
 }
 
@@ -26,10 +48,8 @@ body {
 }
 
 .explanation {
-  text-align: center;
   font-style: italic;
-  font-weight: bold;
-  /**width: 75%;**/
+  width: 75%;
 }
 
 .folio-link {
