@@ -32,7 +32,8 @@ body {
 }
 
 .folio-link {
+  width: 45%;
   text-align: right;
   font-weight: 600;
-  width: 50%;
+  font-size: 20px;
 }
