@@ -3,8 +3,36 @@ body {
   background-size: 100% auto;
 }
 
+.col-style {
+  margin: 0px;
+  padding: 5px;
+}
+
+.section-heading {
+  color: darkorange;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .picture-right-small {
   float: right;
   text-align: right;
   max-width: 200px;
+  border-radius: 5px 40px;
+}
+
+.explanation {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  width: 50%;
+}
+
+.folio-link {
+  text-align: right;
+  font-weight: 600;
+  width: 50%;
 }
