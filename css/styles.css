@@ -4,17 +4,18 @@ body {
 }
 
 .col-style {
-  margin: 0px;
-  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .section-heading {
   color: darkorange;
   font-weight: bold;
   text-shadow: 1px 1px black;
-  width: 30%;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 10px;
+  background-color: #2A4F6E;
 }
 
 .picture-right-small {
@@ -28,11 +29,11 @@ body {
   text-align: center;
   font-style: italic;
   font-weight: bold;
-  width: 50%;
+  /**width: 75%;**/
 }
 
 .folio-link {
-  width: 45%;
+  width: 90%;
   text-align: right;
   font-weight: 600;
   font-size: 20px;
