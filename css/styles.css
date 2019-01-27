@@ -1,8 +1,7 @@
 body {
-  background-image: url('../img/beach1.JPG');
+  background-image: url('https://asasser1975.github.io/img/beach1.JPG');
   background-size: 100% auto;
 }
-
 
 .box-model {
   margin: 12px 0px;
